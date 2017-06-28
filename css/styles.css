@@ -1,0 +1,24 @@
+/***** Remove Default Browser Styles *****/
+html, body, div, section, ul, li, input, button, td, tr, table, span, button, article, h1, h2, h3, p {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+
+
+/***** Bootstrap Sticky Footer *****/
+
+html {position: relative;min-height: 100%;}
+body {margin-bottom: 60px;}
+.text-muted {margin: 20px 0;}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+}
+
+#main-content{
+    padding-top:50px;
+}
